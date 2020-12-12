@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,gBAAiB;EACb,qBAAqB,EAAE,gBAAgB;EACvC,eAAe,EAAE,gBAAgB;;AAGrC,wBAAyB;EACrB,UAAU,EAAE,8FAA6F",
+"sources": ["gradient_backgrounds.scss"],
+"names": [],
+"file": "gradient_backgrounds.css"
+}

@@ -1,0 +1,37 @@
+// Colores Tema DARK
+$principalDark: #000000;
+// Colores Tema LIGHT
+$principalLight: #FFFFFF;
+// Colores principales
+$neutral: rgba(46, 33, 99, 1);
+$musica: rgba(33, 80, 97, 1);
+$cine: rgba(97, 34, 34, 1);
+$juegos: rgba(97, 34, 72, 1);
+$fecha: rgba(241, 232, 103, 1);
+$hora:rgba(73, 156, 234, 1);
+$neutralInicio: rgba(52, 31, 148, 1);
+$neutralFin: rgba(46, 33, 99, 1);
+// Colores botones
+$btnMorado: linear-gradient(to right bottom, $neutralInicio, $neutralFin),
+linear-gradient($neutralFin, $neutralFin 70%);
+$btnVerde: linear-gradient(to right bottom, $musica, rgb(0, 42, 56)),
+linear-gradient(rgb(0, 42, 56), rgb(0, 42, 56) 70%);
+$btnRojo: linear-gradient(to right bottom, $cine, rgb(77, 0, 9)),
+linear-gradient(rgb(77, 0, 9), rgb(77, 0, 9) 70%);
+$btnVioleta: linear-gradient(to right bottom, $juegos, rgb(60, 25, 72)),
+linear-gradient(rgb(60, 25, 72), rgb(60, 25, 72) 70%);
+$btnAmarillo: linear-gradient(to right bottom, $fecha, rgb(254, 183, 69)),
+linear-gradient(rgb(254, 183, 69), rgb(254, 183, 69) 70%);
+$btnAzulClaro: linear-gradient(to right bottom, $hora, rgb(32, 124, 229)),
+linear-gradient(rgb(32, 124, 229), rgb(32, 124, 229) 70%);
+// Colores botones HOVER
+$btnMusicaHover: linear-gradient(to right bottom, rgb(0, 42, 56), $musica),
+linear-gradient($musica, $musica 70%);
+$btnCineHover: linear-gradient(to right bottom, rgb(77, 0, 9), $cine),
+linear-gradient($cine, $cine 70%);
+$btnJuegosHover: linear-gradient(to right bottom, rgb(60, 25, 72), $juegos),
+linear-gradient($juegos, $juegos 70%);
+$btnFechaHover: linear-gradient(to right bottom, rgb(254, 183, 69), $fecha),
+linear-gradient($fecha, $fecha 70%);
+$btnHoraHover: linear-gradient(to right bottom, rgb(32, 124, 229), $hora),
+linear-gradient($hora, $hora 70%);

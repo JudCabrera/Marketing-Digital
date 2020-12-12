@@ -1,0 +1,120 @@
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: transparent; }
+
+::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background-color: #000; }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #333; }
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer; }
+
+.main_podcast_header {
+  width: 95%;
+  margin: 20px auto; }
+
+.box_podcast_img {
+  width: 90%;
+  margin: 10px auto;
+  -moz-box-shadow: 1px 3px 19px #000000;
+  -webkit-box-shadow: 1px 3px 19px #000000;
+  box-shadow: 1px 3px 19px #000000;
+  line-height: 0; }
+
+.box_podcast_img img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 3px; }
+
+.box_podcast_title {
+  width: 100%;
+  color: #FFFFFF;
+  font: 2em 'Bebas Neue';
+  text-align: center;
+  margin: 25px auto 20px auto; }
+
+.box_menu_podcast_interactions {
+  width: 90%;
+  margin: 15px auto; }
+
+.box_menu_podcast_interactions ul {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.box_menu_podcast_interactions ul li {
+  cursor: pointer;
+  color: #CCC;
+  font-size: 19px;
+  position: relative; }
+
+.box_menu_podcast_interactions ul li:not(:last-child) {
+  margin-right: 20px; }
+
+.box_menu_podcast_interactions ul li .box_more_options_podcast_interactions_menu {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background: #FFFFFF;
+  border-radius: 4px;
+  overflow: hidden;
+  display: none; }
+
+.box_more_options_podcast_interactions_menu ul {
+  display: block; }
+
+.box_more_options_podcast_interactions_menu ul li {
+  width: 100%;
+  color: #000;
+  font: 14px 'Roboto';
+  text-align: center;
+  padding: 10px 15px; }
+
+.box_more_options_podcast_interactions_menu ul li:hover {
+  background: #efefef; }
+
+.box_more_options_podcast_interactions_menu ul li:not(:last-child) {
+  border-bottom: 1px solid #efefef; }
+
+.mixcloud_loader {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: #CCC;
+  font: 16px 'Bebas Neue'; }
+
+.mixcloud_loader i,
+.mixcloud_loader svg {
+  font-size: 35px;
+  margin-bottom: 3px; }
+
+.frame_mixcloud_player {
+  display: none; }
+
+.main_podcast_embed_player {
+  width: 95%;
+  margin: 15px auto; }
+
+.main_podcast_content_box_notice {
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding: 7px 0;
+  position: relative;
+  margin-top: -25px; }
+
+.box_waves_effect {
+  width: 100%; }
+
+.img_podcast_content_box_notice {
+  width: 100%; }
+
+.img_podcast_content_box_notice img {
+  width: 100%; }
+
+/*# sourceMappingURL=podcast.css.map */

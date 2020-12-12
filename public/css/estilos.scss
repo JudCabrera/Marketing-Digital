@@ -1,0 +1,735 @@
+// Importar fuentes
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Lato|Oxygen|Roboto|Noto+Sans+JP|Merriweather&display=swap');
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgba(0,0,0, 0.3);
+}
+::-webkit-scrollbar-track {
+    border-radius: 2px;
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 1);
+}
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
+*,
+html,
+body {
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+}
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.full_head {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient( 110.1deg,  rgba(34,126,34,1) 2.9%, rgba(168,251,60,1) 90.3% );
+    overflow: hidden;
+}
+.bg_dark_full_head {
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+.box_waves_effect {
+    width: 100%;
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+}
+.top_head {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box_logo_head {
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin-right: 15px;
+}
+.logo svg{
+    width: 100px;
+}
+.logo_title {
+    font: 2.1em 'Noto Sans JP';
+    color: #FFF;
+}
+.logo_subtitle {
+    font: 15px 'Lato';
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: -6px;
+}
+.mid_head {
+    margin-top: 2.2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subtitle_top_mid_head {
+    font: 12px 'Oxygen';
+    font-weight: 500;
+    color: #FFF;
+    background: rgba(70, 50, 50, 0.3);
+    padding: 7px 12px;
+    border-radius: 15px;
+    width: max-content;
+    margin: 20px 0;
+}
+.ico_mid_head lottie-player{
+    width: 400px;
+    margin-bottom: 10px;
+}
+.big_title_mid_head {
+    font: 2em 'Roboto';
+    color: #FFF;
+}
+.subtitle_mid_head {
+    font: 16px 'Lato';
+    color: #282828;
+    font-weight: bold;
+}
+// Empieza main
+.upper {
+    text-transform: uppercase;
+}
+.txt_center {
+    text-align: center;
+}
+.bold {
+    font-weight: bold;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.wrap_flex {
+    flex-wrap: wrap;
+}
+.full_main {
+    width: 100%;
+    margin: 0 auto;
+}
+.full_main .web_section:last-child {
+    margin-bottom: 0!important;
+}
+.web_section {
+    width: 100%;
+    margin-bottom: 30px!important;
+    overflow: hidden;
+    padding: 25px 0;
+}
+.small_section_title {
+    font: 16px 'Roboto';
+    margin-top: 10px;
+    font-weight: 700;
+}
+.medium_section_title {
+    font: 20px 'Merriweather';
+    margin-top: 22px;
+    font-weight: 700;
+}
+.large_section_title {
+    font: 26px 'Merriweather';
+    margin-top: 22px;
+    font-weight: 700;
+}
+.normal_section_paragraph {
+    font: 17px 'Roboto';
+    line-height: 1.6;
+    font-weight: 300;
+    color: #696E7B;
+    margin-top: 15px;
+}
+.quote_paragraph {
+    border-left: 5px solid #01C9F5;
+    padding-left: 20px;
+}
+.quote_paragraph q {
+    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-size: 15px;
+    font-weight: 700;
+    font-style: italic;
+    line-height: 1.4;
+}
+.half_pc_section {
+    width: 90%;
+    margin: auto;
+}
+.full_section {
+    width: 100%;
+}
+.full_margin_section {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lottie_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lottie_section dotlottie-player,
+.lottie_section lottie-player {
+    width: 250px;
+    margin: 20px;
+}
+.button_section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.button_section button a {
+    display: block;
+    padding: 7px 15px;
+    color: #FFF;
+    font: 15px 'Oxygen';
+    font-weight: 500;
+}
+.round_btn {
+    border-radius: 18px;
+    overflow: hidden;
+}
+.menu_list_section {
+    width: 100%;
+    margin-top: 40px;
+}
+.menu_list_section ul {
+    width: 90%;
+    margin: 0 auto;
+}
+.menu_list_section ul li{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.ico_menu_list_section img{
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    min-height: 80px;
+    max-width: 80px;
+    max-height: 80px;
+    object-position: center;
+}
+.title_menu_list_section {
+    font: 20px 'Merriweather';
+    font-weight: 700;
+    margin-left: 15px;
+}
+.paragraph_menu_list_section {
+    font: 17px 'Roboto';
+    line-height: 1.6;
+    font-weight: 300;
+    margin-top: 15px;
+}
+.slide_clients {
+    margin-top: 30px;
+}
+.max_slide_clients {
+    width: 90%;
+    max-width: 1000px;
+    margin: 15px auto;
+}
+.slide_clients img {
+    width: 250px;
+    height: 250px;
+    object-position: center;
+    margin-right: 15px;
+    background: #FFF;
+    object-fit: contain;
+    border-radius: 5px;
+}
+.slide_clients .slick-arrow {
+    display: none!important;
+}
+// Empieza footer
+.full_footer {
+    background: #f3f3f3;
+}
+.menu_footer {
+    width: 90%;
+    margin: 30px auto 20px auto;
+    border-top: 1px solid #696E7B;
+    padding-top: 20px;
+}
+.menu_footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.menu_footer ul li {
+    margin-bottom: 10px;
+}
+.menu_footer ul li a {
+    color: #696E7B;
+    display: block;
+    font: 16px 'Roboto';
+    transition: all 0.2s ease-in-out;
+}
+.menu_footer ul li a:hover {
+    color: #01C9F5;
+}
+.menu_footer ul li:not(:first-child) {
+    margin-left: 15px;
+}
+// Empiezan colores
+.dark_green,
+.dark_green a {
+    color: #087B18;
+}
+.white,
+.white a {
+    color: #FFFFFF;
+}
+.normal_green,
+.normal_green a {
+    color: #1FB533;
+}
+.normal_orange,
+.normal_orange a {
+    color: #E98120;
+}
+.dark_blue,
+.dark_blue a {
+    color: #293043;
+}
+.neon_blue,
+.neon_blue a {
+    color: #01C9F5;
+}
+.normal_blue,
+.normal_blue a {
+    color: #085bd9;
+}
+.gray_paragraph,
+.gray_paragraph a {
+    color: #696E7B;
+}
+.bg_dark_green {
+    background: #087B18;
+}
+.bg_normal_green {
+    background: #1FB533;
+}
+.bg_normal_orange {
+    background: #E98120;
+}
+.bg_dark_blue {
+    background: #293043;
+}
+.bg_dark_violet {
+    background: #192031;
+}
+.bg_normal_blue {
+    background: #085bd9;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .mid_head {
+        margin-top: 20px;
+    }
+    .box_waves_effect {
+        bottom: -15px;
+    }
+    .subtitle_top_mid_head {
+        font: 14px 'Oxygen';
+    }
+    .big_title_mid_head {
+        font: 2.2em 'Roboto';
+        text-transform: uppercase;
+    }
+    .subtitle_mid_head {
+        font: 18px 'Lato';
+        color: #000;
+    }
+    .full_head,
+    .bg_dark_full_head {
+        height: calc(100vh + 100px);
+    }
+    .small_section_title {
+        font: 17px 'Roboto';
+    }
+    .medium_section_title {
+        font: 21px 'Merriweather';
+    }
+    .large_section_title {
+        font: 28px 'Merriweather';
+    }
+    .normal_section_paragraph {
+        font: 18px 'Roboto';
+    }
+    .lottie_section dotlottie-player,
+    .lottie_section lottie-player {
+        width: 270px;
+    }
+    .button_section button a {
+        padding: 8px 16px;
+        font: 16px 'Oxygen';
+    }
+    .quote_paragraph q {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .logo svg{
+        width: 120px;
+    }
+    .logo_title {
+        font: 2.3em 'Noto Sans JP';
+    }
+    .logo_subtitle {
+        font: 17px 'Lato';
+    }
+    .mid_head {
+        margin-top: 25px;
+    }
+    .box_waves_effect {
+        bottom: -15px;
+    }
+    .subtitle_top_mid_head {
+        font: 15px 'Oxygen';
+    }
+    .big_title_mid_head {
+        font: 2.3em 'Roboto';
+        text-transform: uppercase;
+    }
+    .subtitle_mid_head {
+        font: 19px 'Lato';
+        color: #000;
+    }
+    .full_head,
+    .bg_dark_full_head {
+        height: calc(100vh + 100px);
+    }
+    .half_pc_section {
+        width: 60%;
+        margin: inherit auto;
+    }
+    .small_section_title {
+        font: 18px 'Roboto';
+    }
+    .medium_section_title {
+        font: 28px 'Merriweather';
+    }
+    .large_section_title {
+        font: 32px 'Merriweather';
+    }
+    .normal_section_paragraph {
+        font: 19px 'Roboto';
+    }
+    .lottie_section dotlottie-player,
+    .lottie_section lottie-player {
+        width: 300px;
+    }
+    .button_section button a {
+        padding: 9px 16px;
+        font: 17px 'Oxygen';
+    }
+    .quote_paragraph q {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo svg{
+        width: 125px;
+    }
+    .logo_title {
+        font: 2.4em 'Noto Sans JP';
+    }
+    .logo_subtitle {
+        font: 18px 'Lato';
+    }
+    .mid_head {
+        margin-top: 30px;
+    }
+    .box_waves_effect {
+        bottom: -15px;
+    }
+    .subtitle_top_mid_head {
+        font: 15px 'Oxygen';
+    }
+    .big_title_mid_head {
+        font: 2.3em 'Roboto';
+        text-transform: uppercase;
+    }
+    .subtitle_mid_head {
+        font: 19px 'Lato';
+        color: #000;
+    }
+    .full_head,
+    .bg_dark_full_head {
+        height: calc(100vh + 100px);
+    }
+    .half_pc_section {
+        width: 60%;
+        margin: inherit auto;
+    }
+    .small_section_title {
+        font: 18px 'Roboto';
+    }
+    .medium_section_title {
+        font: 36px 'Merriweather';
+    }
+    .large_section_title {
+        font: 39px 'Merriweather';
+    }
+    .normal_section_paragraph {
+        font: 20px 'Roboto';
+    }
+    .lottie_section dotlottie-player,
+    .lottie_section lottie-player {
+        width: 320px;
+    }
+    .button_section button a {
+        padding: 12px 20px;
+        font: 18px 'Oxygen';
+    }
+    .quote_paragraph q {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .logo svg{
+        width: 150px;
+    }
+    .logo_title {
+        font: 2.6em 'Noto Sans JP';
+    }
+    .logo_subtitle {
+        font: 20px 'Lato';
+    }
+    .mid_head {
+        margin-top: 35px;
+    }
+    .box_waves_effect {
+        bottom: -90px;
+    }
+    .subtitle_top_mid_head {
+        font: 17px 'Oxygen';
+    }
+    .big_title_mid_head {
+        font: 2.8em 'Roboto';
+        text-transform: uppercase;
+    }
+    .subtitle_mid_head {
+        font: 21px 'Lato';
+        color: #000;
+    }
+    .full_head,
+    .bg_dark_full_head {
+        height: calc(100vh + 100px);
+    }
+    .half_pc_section {
+        width: 60%;
+        margin: inherit auto;
+    }
+    .small_section_title {
+        font: 18px 'Roboto';
+    }
+    .medium_section_title {
+        font: 36px 'Merriweather';
+    }
+    .large_section_title {
+        font: 42px 'Merriweather';
+    }
+    .normal_section_paragraph {
+        font: 20px 'Roboto';
+    }
+    .lottie_section dotlottie-player,
+    .lottie_section lottie-player {
+        width: 350px;
+    }
+    .button_section button a {
+        padding: 15px 25px;
+        font: 18px 'Oxygen';
+    }
+    .quote_paragraph q {
+        font-size: 19px;
+    }
+    .menu_list_section ul {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .menu_list_section ul li {
+        max-width: 23%;
+    }
+}
+
+@media (min-width: 1281px) {
+    .logo svg{
+        width: 120px;
+    }
+    .logo_title {
+        font: 2.4em 'Noto Sans JP';
+    }
+    .logo_subtitle {
+        font: 18px 'Lato';
+    }
+    .mid_head {
+        margin-top: 5px;
+        width: 95%;
+    }
+    .box_waves_effect {
+        bottom: -90px;
+    }
+    .subtitle_top_mid_head {
+        font: 15px 'Oxygen';
+    }
+    .ico_mid_head lottie-player {
+        width: 480px;
+        margin-top: -30px;
+        margin-bottom: 15px;
+    }
+    .big_title_mid_head {
+        font: 3em 'Roboto';
+        text-transform: uppercase;
+    }
+    .subtitle_mid_head {
+        font: 20px 'Lato';
+        color: #000;
+    }
+    .full_head,
+    .bg_dark_full_head {
+        height: calc(100vh + 100px);
+    }
+    .half_pc_section {
+        width: 60%;
+        margin: inherit auto;
+    }
+    .small_section_title {
+        font: 18px 'Roboto';
+    }
+    .medium_section_title {
+        font: 36px 'Merriweather';
+    }
+    .large_section_title {
+        font: 42px 'Merriweather';
+    }
+    .normal_section_paragraph {
+        font: 20px 'Roboto';
+    }
+    .lottie_section dotlottie-player,
+    .lottie_section lottie-player {
+        width: 400px;
+    }
+    .button_section button a {
+        padding: 15px 25px;
+        font: 18px 'Oxygen';
+    }
+    .quote_paragraph q {
+        font-size: 22px;
+    }
+    .menu_list_section ul {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .menu_list_section ul li {
+        max-width: 23%;
+    }
+}
+@media (min-width: 1281px) and (min-height: 700px){
+    .logo svg{
+        width: 120px;
+    }
+    .logo_title {
+        font: 2.4em 'Noto Sans JP';
+    }
+    .logo_subtitle {
+        font: 18px 'Lato';
+    }
+    .mid_head {
+        margin-top: 30px;
+        width: 95%;
+    }
+    .box_waves_effect {
+        bottom: -50px;
+    }
+    .subtitle_top_mid_head {
+        font: 17px 'Oxygen';
+    }
+    .ico_mid_head lottie-player {
+        width: 550px;
+        margin-top: -30px;
+        margin-bottom: 15px;
+    }
+    .big_title_mid_head {
+        font: 3.2em 'Roboto';
+        text-transform: uppercase;
+    }
+    .subtitle_mid_head {
+        font: 25px 'Lato';
+        color: #000;
+        margin-top: 15px;
+    }
+    .full_head,
+    .bg_dark_full_head {
+        height: calc(100vh + 100px);
+    }
+    .half_pc_section {
+        width: 50%;
+        margin: inherit auto;
+    }
+    .small_section_title {
+        font: 18px 'Roboto';
+    }
+    .medium_section_title {
+        font: 36px 'Merriweather';
+    }
+    .large_section_title {
+        font: 42px 'Merriweather';
+    }
+    .normal_section_paragraph {
+        font: 20px 'Roboto';
+    }
+    .lottie_section dotlottie-player,
+    .lottie_section lottie-player {
+        width: 400px;
+    }
+    .button_section button a {
+        padding: 15px 25px;
+        font: 18px 'Oxygen';
+    }
+    .quote_paragraph q {
+        font-size: 22px;
+    }
+    .menu_list_section ul {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .menu_list_section ul li {
+        max-width: 23%;
+    }
+}

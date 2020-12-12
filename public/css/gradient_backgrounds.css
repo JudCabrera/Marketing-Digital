@@ -1,0 +1,8 @@
+.gradient_inf_bg {
+  background-attachment: fixed !important;
+  background-size: cover !important; }
+
+.violet_dark_gradient_bg {
+  background: linear-gradient(to right bottom, #2e2163, black), linear-gradient(black, black 70%) !important; }
+
+/*# sourceMappingURL=gradient_backgrounds.css.map */
